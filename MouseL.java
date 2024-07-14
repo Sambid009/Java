@@ -10,6 +10,7 @@ class MouseControls extends JFrame{
     JLabel l1;
     public void setMouse(){
         t1 = new JTextArea(20,20);
+        
         l1=new JLabel("Result");
         
         add(t1);add(l1);
